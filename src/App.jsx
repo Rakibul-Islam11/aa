@@ -1,4 +1,4 @@
-
+import fgg from './assets/yy.png'
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <img src="/src/assets/yy.png" alt="" />
+      <img src={fgg} alt="" />
     </>
   )
 }
